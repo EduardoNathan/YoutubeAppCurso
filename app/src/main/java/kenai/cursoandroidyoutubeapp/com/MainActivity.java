@@ -34,28 +34,28 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
             @Override
             public void onLoaded(String s) {
                 Toast.makeText(MainActivity.this,
-                        "Video Carregado",
+                        "Video Carregado!",
                         Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onAdStarted() {
                 Toast.makeText(MainActivity.this,
-                        "Propaganda iniciou",
+                        "Propaganda iniciou!",
                         Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onVideoStarted() {
                 Toast.makeText(MainActivity.this,
-                        "Video Comecou",
+                        "Video Comecou!",
                         Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onVideoEnded() {
                 Toast.makeText(MainActivity.this,
-                        "Video Acabou",
+                        "Video Acabou!",
                         Toast.LENGTH_SHORT).show();
             }
 
